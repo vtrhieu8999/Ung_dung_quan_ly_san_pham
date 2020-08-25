@@ -1,6 +1,7 @@
 let proArr= new Array();
 
 function addProToArr(){
+    if(document.getElementById('input').value!='')
     proArr.push(document.getElementById('input').value);
     displayPro();
 }
